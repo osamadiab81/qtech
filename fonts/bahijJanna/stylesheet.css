@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bahij Janna';
+    src: url('BahijJanna.woff2') format('woff2'),
+        url('BahijJanna.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
