@@ -185,8 +185,8 @@
 
 
 // ------------------------ Client Feedback Slider Two
-        if($(".clientSliderTwo").length) {
-          $('.clientSliderTwo').slick({
+        if($(".sliderTwo").length) {
+          $('.sliderTwo').slick({
               dots: true,
               arrows: false,
               centerMode: true,
