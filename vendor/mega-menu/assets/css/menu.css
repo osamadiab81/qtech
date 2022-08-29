@@ -8,7 +8,7 @@
   position: relative;
   z-index: 99;
   border: none;
-  background: #2a2a2a;;
+  background: #57b7cb;;
   box-shadow: 0 15px 20px 0px rgba(0,0,0,0.05);
 }
 .navbar-toggler:focus {box-shadow: none;}
@@ -336,7 +336,7 @@
     padding: 0;
     margin-top: 0;
   }
-  .navbar .navbar-nav .nav-item .nav-link {padding: 13px 0;}
+  .navbar .navbar-nav .nav-item .nav-link {padding: 13px 0; color: #6F6F6F;}
   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
     padding: 12px 15px;
     font-size: 18px;
