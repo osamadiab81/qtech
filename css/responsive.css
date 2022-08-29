@@ -570,7 +570,7 @@
   .theme-footer-six .inner-container:before {width: 400px; height: 400px; top: 0;}
   .theme-footer-six .inner-container:after {width: 400px; height: 400px; bottom: 0;}
   .dark-style .modal-contact-popup-one .right-side:after,.dark-style .modal-contact-popup-one .right-side:before {width: 270px; height: 270px; top: 10%;}
-  .hero-banner-seven .illustration-container {position: relative; margin: 0 auto 50px; max-width: 80%; right: auto; top: 0;}
+  .hero-banner-seven .illustration-container {display: none;}
   .hero-banner-seven {margin-top: 40px;}
   .hero-banner-seven .hero-heading {font-size: 45px; padding: 20px 0 0;}
   .hero-banner-seven .hero-heading span:before {bottom: 10px;}

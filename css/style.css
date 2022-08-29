@@ -11974,13 +11974,6 @@ body .theme-btn-fourteen:hover {
   margin: 75px 0 0;
 }
 
-.hero-banner-seven .illustration-container {
-  position: absolute;
-  top: 22px;
-  right: 0px;
-  max-width: 50%;
-}
-
 .hero-banner-seven .illustration-container img {
   animation: jumpTwo 6s infinite linear;
 }
