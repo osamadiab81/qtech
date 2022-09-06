@@ -161,8 +161,8 @@
   background-image: url('../images/logo/logo.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0px;
-  margin: 0px;
+  /* padding: 0px;
+  margin: 0px; */
   width: 150px;
   height: 50px;
 }
@@ -8161,7 +8161,7 @@ body .theme-btn-fourteen:hover {
   background: url(../images/media/innerbannerbackgroundPrograme.svg), linear-gradient(90deg, #0397b2 0%, #4162a8 75%, #754c9e 100%);
   background-repeat: no-repeat;
   background-position: 90%;
-  padding: 240px 0 120px;
+  padding: 120px 0 120px;
   position: relative;
   z-index: 5;
 
@@ -8170,7 +8170,7 @@ body .theme-btn-fourteen:hover {
   background: url(../images/media/innerbannerbackground.svg), linear-gradient(90deg, #0397b2 0%, #4162a8 75%, #754c9e 100%);
   background-repeat: no-repeat;
   background-position: 90%;
-  padding: 240px 0 120px;
+  padding: 120px 0 120px;
   position: relative;
   z-index: 5;
 }
@@ -9879,8 +9879,8 @@ body .theme-btn-fourteen:hover {
 .theme-menu-five .logo {
   position: absolute;
   right: 0;
-  /* top: 50%; */
-  /* transform: translateY(-50%); */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .theme-menu-five .right-widget {
@@ -12906,8 +12906,8 @@ body .theme-btn-fourteen:hover {
 
 .theme-footer-seven .bottom-footer {
   border-top: 1px solid #20a2b545;
-  padding: 35px 0 15px;
-  margin-top: 45px;
+  padding: 10px 0 10px;
+  margin-top: 10px;
 }
 
 .theme-footer-seven .bottom-footer .footer-nav a {

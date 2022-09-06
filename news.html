@@ -43,7 +43,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#one-page-nav" data-offset="120">
-    <div class="main-page-wrapper p0">
+    <div class="main-page-wrapper">
         <!-- ===================================================
 				Loading Transition
 			==================================================== -->
@@ -86,7 +86,8 @@
                 </div>
             </div>
             <div class="d-flex align-items-center justify-content-center">
-				<div class="logo"><a href="index.html"><img></a></div>
+				<a href="index.html">
+                    <div class="logo"></div></a>
 				<nav id="mega-menu-holder" class="navbar navbar-expand-lg">
 					<div class="container nav-container">
 						<button class="navbar-toggler">
@@ -117,13 +118,13 @@
 										</ul>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">الإنجازات</a>
+										<a href="index.html#achievements" class="nav-link">الإنجازات</a>
 									</li>
 									<li class="nav-item">
-										<a href="news.html" class="nav-link active">الأخبار</a>
+										<a href="index.html#news" class="nav-link">الأخبار</a>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">شركاؤنا</a>
+										<a href="index.html#partners" class="nav-link">شركاؤنا</a>
 									</li>
 								</ul>
 							</div>
@@ -228,73 +229,71 @@
             </div>
         </div>
 
-        <footer class="theme-footer-seven pt-120 md-pt-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 mb-40" data-aos="fade-up" data-aos-duration="1200">
-                        <div class="logo"><a href="index.html"><img src="images/logo/logo.svg"></a></div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 mb-40" data-aos="fade-up" data-aos-duration="1200"
-                        data-aos-delay="100">
-                        <h5 class="title">روابط مهمة</h5>
-                        <ul class="footer-list">
-                            <li><a href="#">هيئة الحكومة الرقمية</a></li>
-                            <li><a href="#">برنامج GovTech</a></li>
-                            <li><a href="#">جائزة الحكومة الرقمية</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-3 mb-40" data-aos="fade-up" data-aos-duration="1200"
-                        data-aos-delay="150">
-                        <h5 class="title">تواصل معنا</h5>
-                        <ul class="footer-list">
-                            <li>
+        <footer class="theme-footer-seven py-5">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-6 align-self-center" data-aos="fade-up" data-aos-duration="1200">
+						<div class="logo"><img src="images/logo/logo.svg"></div>
+					</div>
+					<div class="col-lg-3 col-md-3 mb-40" data-aos="fade-up" data-aos-duration="1200"
+						data-aos-delay="100">
+						<h5 class="title">روابط مهمة</h5>
+						<ul class="footer-list">
+							<li><a href="#">هيئة الحكومة الرقمية</a></li>
+							<li><a href="#">برنامج GovTech</a></li>
+							<li><a href="#">جائزة الحكومة الرقمية</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3 mb-40" data-aos="fade-up" data-aos-duration="1200"
+						data-aos-delay="150">
+						<h5 class="title">تواصل معنا</h5>
+						<ul class="footer-list">
+							<li>
+								<button class="button d-flex align-items-center">
+									<img class="px-1" src="images/icon/mobile-icon.svg" alt=""> <span
+										class="px-1">199099</span></button>
+							</li>
+							<li>
+								<div class="d-flex align-items-center">
+									<button class="button d-flex align-items-center">
+										<img class="px-1" src="images/icon/twitter.svg" alt=""></button>
+									<button class="button d-flex align-items-center">
+										<img class="px-1" src="images/icon/linked-in.svg" alt=""></button>
+								</div>
+							</li>
 
-                                <button class="button d-flex align-items-center">
-                                    <img class="px-1" src="images/icon/mobile-icon.svg" alt=""> <span
-                                        class="px-1">199099</span></button>
-                            </li>
-                            <li>
+						</ul>
+					</div>
 
-                                <div class="d-flex align-items-center">
-                                    <button class="button d-flex align-items-center">
-                                        <img class="px-1" src="images/icon/twitter.svg" alt=""></button>
-                                    <button class="button d-flex align-items-center">
-                                        <img class="px-1" src="images/icon/linked-in.svg" alt=""></button>
-                                </div>
-                            </li>
+				</div>
+			</div>
+			<div class="container">
+				<div class="bottom-footer">
+					<div class="row">
+						<div class="col-md-5 order-lg-1 mb-20">
+							<ul class="d-flex justify-content-center justify-content-lg-start footer-nav">
+								<li><a href="#">عن قدرات.تك</a></li>
+								<li><a href="#">الأسئلة المتكررة</a></li>
+								<li><a href="#">برامجنا</a></li>
+								<li><a href="#">اتصل بنا</a></li>
+								<li><a href="#">شروط الاستخدام</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 order-lg-3 mb-20">
+							<ul class="d-flex justify-content-center justify-content-lg-end social-icon">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 order-lg-2 mb-20">
+							<p class="copyright text-center">جميع الحقوق محفوظة لهيئة الحكومة الرقمية</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-            <div class="container">
-                <div class="bottom-footer">
-                    <div class="row">
-                        <div class="col-md-5 order-lg-1 mb-20">
-                            <ul class="d-flex justify-content-center justify-content-lg-start footer-nav">
-                                <li><a href="#">عن قدرات.تك</a></li>
-                                <li><a href="#">الأسئلة المتكررة</a></li>
-                                <li><a href="#">برامجنا</a></li>
-                                <li><a href="#">اتصل بنا</a></li>
-                                <li><a href="#">شروط الاستخدام</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 order-lg-3 mb-20">
-                            <ul class="d-flex justify-content-center justify-content-lg-end social-icon">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 order-lg-2 mb-20">
-                            <p class="copyright text-center">جميع الحقوق محفوظة لهيئة الحكومة الرقمية</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </footer> <!-- /.theme-footer-seven -->
+		</footer><!-- /.theme-footer-seven -->
         <!-- Scroll Top Button -->
         <button class="scroll-top">
             <i class="fa fa-angle-up" aria-hidden="true"></i>
