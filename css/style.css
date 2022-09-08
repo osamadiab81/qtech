@@ -463,6 +463,9 @@ h6 {
   transition: all 0.6s ease-in-out;
 }
 
+.calendar-section {
+ background-color: #e5f2f8
+}
 /*^^^^^^^^^^^^^^^^^^^^^ Section Title ^^^^^^^^^^^^^^^^^^^^^^^^^*/
 .title-style-one h2 {
   font-family: 'Bahij Janna Bold';
