@@ -464,8 +464,9 @@ h6 {
 }
 
 .calendar-section {
- background-color: #e5f2f8
+  background-color: #e5f2f8
 }
+
 /*^^^^^^^^^^^^^^^^^^^^^ Section Title ^^^^^^^^^^^^^^^^^^^^^^^^^*/
 .title-style-one h2 {
   font-family: 'Bahij Janna Bold';
@@ -2223,13 +2224,15 @@ body .theme-btn-fourteen:hover {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin: 0 auto;
+  margin: 0 auto 25px;
+  max-width: 90px;
 }
 
 .useable-tools-section .img-box {
   background: #fff;
   border-radius: 50%;
-  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px -1px 2px 0px rgb(0 0 0 / 50%); */
+  border: 1px solid #dee2e6;
   width: 180px;
   height: 180px;
   margin: 0 auto 25px;
@@ -2264,13 +2267,13 @@ body .theme-btn-fourteen:hover {
 }
 
 .useable-tools-section .img-box.bx-g {
-  width: 197px;
-  height: 197px;
+  width: 120px;
+  height: 120px;
 }
 
 .useable-tools-section .img-box.bx-h {
-  width: 138px;
-  height: 138px;
+  width: 90px;
+  height: 90px;
   margin-top: 20px;
 }
 
@@ -3599,10 +3602,9 @@ body .theme-btn-fourteen:hover {
   border-radius: 5px;
   border-width: 3px;
   border-style: solid;
-  border-image: linear-gradient(
-    90deg, #4269ab 75%, #754c9e 100%
-  ) 1
+  border-image: linear-gradient(90deg, #4269ab 75%, #754c9e 100%) 1
 }
+
 /* linear-gradient(90deg, #0397b2 0%, #4162a8 75%, #754c9e 100%); */
 
 .feature-blog-one .post-meta .tag {
@@ -3673,6 +3675,7 @@ body .theme-btn-fourteen:hover {
 .bg-light-green {
   background-color: #e5f7ed;
 }
+
 /* .fancy-text-block-four .wrapper:before {
   content: url(../images/assets/our_role.svg);
   position: absolute;
@@ -17633,4 +17636,49 @@ body .theme-btn-fourteen:hover {
 .fancy-feature-fortyOne .buy-btn:hover {
   background: #2B0937;
   color: #fff;
+}
+
+.img_absolute {
+  position: relative;
+  width: 100%;
+}
+
+.img_absolute img {
+  width: 100%;
+  height: auto;
+}
+
+.top-0 {
+  top: 0%;
+
+}
+
+.right-0 {
+  right: -1%;
+
+}
+
+.right-25 {
+  right: 25%;
+
+}
+
+.img_absolute i {
+  position: absolute;
+  /* top: 0%;
+  right: 0%; */
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: -webkit-linear-gradient(195deg, #027fba 0%, #6f4b99 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50px; */
 }
